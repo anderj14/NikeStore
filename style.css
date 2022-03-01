@@ -1,0 +1,302 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #010101;
+}
+
+/* Nav */
+
+header{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e7e7e7;
+    height: 200px;
+}
+nav .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px
+}
+nav .links .nav{
+    margin-right: 60px;
+}
+nav .links .nav a{
+    margin: 5px;
+    font-size: 14px;
+}
+nav .links .nav span{
+    font-size: 13px;
+}
+nav .links .icons{
+    width: 50px;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+nav .links a img{
+    width: 30px;
+    margin-right: 25px;
+}
+
+/* Menu */
+
+nav .menu{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav .menu .icons .nike img{
+    width: 90px;
+    margin-left: 40px;
+}
+
+nav .menu .submenu{
+    display: flex;
+    align-items: center;
+}
+
+nav .submenu .nav{
+    margin-right: 40px;
+}
+nav .menu .submenu a{
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav .menu input{
+    background-color: #f5f5f5;
+    padding: 17px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+nav .menu .favorite-shop{
+    display: flex;
+    margin-right: 55px;
+}
+nav .menu .favorite-shop img{
+    width: 25px;
+    margin: 5px;
+}
+
+.offer{
+    text-align: center;
+    font-size: 18px;
+    color: #303030;
+}
+.offer .offer1{
+    margin: -10px;
+}
+.offer .offer1 .percentaje{
+    margin-top: -15px;
+}
+.offer .offer1 .percentaje a{
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+/* Section */
+
+.section1{
+    width: 91%;
+    margin: 0 auto;
+}
+
+.section1 .image{
+    height: 700px;
+    background-image: url(img/nike-just-do-it.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.section1 .image .letters-content{
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+/*
+section .image .letters-content .letter{
+    width: 400px;
+    background-color: aqua;
+}*/
+.section1 .image .letters-content h1{
+    font-family: 'Futura XBlkCn BT', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    word-spacing: 5px;
+    margin: 0;
+    line-height: 70px;
+}
+
+.section1 .image .letters-content p{
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.section1 .image .letters-content a{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 10px 23px 10px 23px;
+    border-radius: 50px;
+}
+
+/* Section2 */
+
+.section2{
+    width: 91%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.section2 .letter h1{
+    color: #000;
+    font-family: arial;
+    font-weight: 300;
+}
+.section2 article{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+}
+
+.section2 article .uniform{
+    background-image: url(img/nike-just-do-it.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+}
+.section2 article .uniform{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.section2 article .uniform .letter {
+    margin-left: 53px;
+    margin-bottom: 60px;
+}
+
+.section2 article .uniform .letter h1{
+    font-size: 25px;
+    font-weight: 540;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.section2 article .uniform .letter a{
+    width: 50px;
+    color: #000000be;
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 10px 23px 10px 23px;
+    border-radius: 50px;
+}
+
+.section2 article .nike-black{
+    background-image: url(img/nike-just-do-it\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+}
+.section2 article .nike-black{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.section2 article .nike-black .letter {
+    margin-left: 53px;
+    margin-bottom: 60px;
+}
+
+.section2 article .nike-black .letter h1{
+    font-size: 25px;
+    font-weight: 540;
+    color: #000000;
+    margin-bottom: 40px;
+    width: 300px;
+    word-spacing: 2px;
+}
+.section2 article .nike-black .letter a{
+    width: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 10px 23px 10px 23px;
+    border-radius: 50px;
+}
+
+/* Section3 */
+
+.section3{
+    width: 91%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.section3 .letter h1{
+    color: #000;
+    font-family: arial;
+    font-weight: 300;
+}
+.section3 article{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section3 article .fleece{
+    background-image: url(img/nike-just-do-it\(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+}
+.section3 article .fleece{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.section3 article .fleece .letter {
+    margin-left: 53px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+.section3 article .fleece .letter h1{
+    font-family: 'Futura XBlkCn BT', sans-serif;
+    width: 450px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 5.5rem;
+    line-height: 68px;
+    font-weight: 540;
+    margin-bottom: 35px;
+}
+.section3 article .fleece .letter h2{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.section3 article .fleece .letter a{
+    width: 50px;
+    color: #000000be;
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: 10px 23px 10px 23px;
+    border-radius: 50px;
+}
+
